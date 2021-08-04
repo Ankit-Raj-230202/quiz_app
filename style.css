@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main-div{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background:linear-gradient(pink,white);
+}
+.inner-div{
+    width: 40vw;
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.4rem  grey;
+    /* text-align: center; */
+}
+.inner-div h2{
+    font-size: 35px;
+    
+    margin: 20px;
+}
+.inner-div li{
+    font-size: 20px;
+    margin: 10px;
+    
+
+}
+input{
+    cursor: pointer;
+}
+#submit, .btn{
+    padding: 7px 20px;
+    background-color: pink;
+    color: black;
+    font-size: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-left: 230px;
+    /* align-content: center; */
+    /* margin: auto;S */
+
+}
+#submit:hover{
+    background-color: rgba(255, 192, 203, 0.815);
+}
+#showScore{
+    background:linear-gradient(lightpink,white);
+    margin-top: 20px;
+    padding: 10px 30px;
+    box-shadow: 0 1rem 1rem -0.7rem grey;
+    border-radius: 10px;
+}
+#showScore h3{
+    font-size: 25px;
+    text-align: center;
+}
+#showScore .btn{
+    margin-top: 20px;
+    background-color: lightblue;
+    font-size: 15px;
+    color: black;
+    margin-left: 190px;
+
+}
+#showScore .btn:hover{
+    background-color: rgb(88, 138, 96);
+    color: rgb(14, 1, 1);
+}
+.scoreArea{
+    display: none;
+}
